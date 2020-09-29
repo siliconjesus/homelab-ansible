@@ -1,0 +1,8 @@
+[rhel]
+vm.int.mentzell.us
+fedora.int.mentzell.us
+home.int.mentzell.us
+
+[ubuntu]
+vm1.int.mentzell.us
+nexus.int.mentzell.us

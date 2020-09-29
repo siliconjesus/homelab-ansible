@@ -1,0 +1,15 @@
+---
+- hosts: rhel
+  become: yes
+  tasks: 
+	 - name: Update all RHEL packages
+       yum: 
+			name: "*"
+			state: latest
+- hosts: ubuntu
+  become: yes
+  tasks: 
+    - name: Update all ubuntu packages
+		 apt: 
+			name: "*"
+			state: latest
